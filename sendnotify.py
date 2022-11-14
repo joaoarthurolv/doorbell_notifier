@@ -10,7 +10,7 @@ import os
 USERNAME = "youremail@gmail.com"
 PASSWORD = "yourpassword"
 
-#def sendMail(to, subject, text, files=colchetes
+#def sendMail(to, subject, text, files=[] -- When you want to attach files to the email
 def sendMail(to, subject, text):
     assert type(to)==list
 #    assert type(files)==list
